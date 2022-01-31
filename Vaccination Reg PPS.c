@@ -69,7 +69,7 @@ void removePatient()
         }
         else if(i==indexNumber-1)
         {
-            printf("This name is not exits\n");
+            printf("This name does not exits\n");
         }       
     }        
 }
@@ -104,7 +104,7 @@ void main()
     int choose;
     do
     {
-        printf("\n**********Vaccination Menu***********\n");
+        printf("\n*****Vaccination Menu****\n");
         printf("Enter 1 to add patient\n");
         printf("Enter 2 to register First/Secod Dose\n");
         printf("Enter 3 to check the patient\n");
